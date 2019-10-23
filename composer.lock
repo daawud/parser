@@ -1,0 +1,107 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1f0a6c4f1c4902db2e66d11dc922448b",
+    "packages": [
+        {
+            "name": "electrolinux/phpquery",
+            "version": "0.9.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/electrolinux/phpquery.git",
+                "reference": "6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/electrolinux/phpquery/zipball/6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a",
+                "reference": "6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "phpQuery/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobiasz Cudnik",
+                    "email": "tobiasz.cudnik@gmail.com",
+                    "homepage": "https://github.com/TobiaszCudnik",
+                    "role": "Developer"
+                },
+                {
+                    "name": "didier Belot",
+                    "role": "Packager"
+                }
+            ],
+            "description": "phpQuery is a server-side, chainable, CSS3 selector driven Document Object Model (DOM) API based on jQuery JavaScript Library",
+            "homepage": "http://code.google.com/p/phpquery/",
+            "time": "2013-03-21T12:39:33+00:00"
+        },
+        {
+            "name": "imangazaliev/didom",
+            "version": "1.14.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Imangazaliev/DiDOM.git",
+                "reference": "a8389cc26897f6bb8843363b4ea16e7ef16fb3c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Imangazaliev/DiDOM/zipball/a8389cc26897f6bb8843363b4ea16e7ef16fb3c3",
+                "reference": "a8389cc26897f6bb8843363b4ea16e7ef16fb3c3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-iconv": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.9",
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DiDom\\": "src/DiDom/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Imangazaliev Muhammad",
+                    "email": "imangazalievm@gmail.com"
+                }
+            ],
+            "description": "Simple and fast HTML parser",
+            "homepage": "https://github.com/Imangazaliev/DiDOM",
+            "keywords": [
+                "didom",
+                "html",
+                "parser",
+                "xml"
+            ],
+            "time": "2019-01-17T11:01:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

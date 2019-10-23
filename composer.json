@@ -1,0 +1,6 @@
+{
+    "require": {
+        "electrolinux/phpquery": "^0.9.6",
+        "imangazaliev/didom": "^1.14"
+    }
+}
