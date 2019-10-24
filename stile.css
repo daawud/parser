@@ -5,12 +5,17 @@
 }
 
 #content {
-	font-size: 14px;
-	/* width: 60%; */
+	background-color: #fffff0;
+	font-size: 20px;
 	margin: 0 auto;
-	border: 1px solid #ccc;
+	border: 1px solid #fffff0;
 	padding: 0 7px;
 	width: 98%;
 	height: 600px;
 	overflow: auto;
+	text-align: center;
+}
+
+p {
+	font-weight: bold;
 }
